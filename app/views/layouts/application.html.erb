@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cemu</title>
+  <title>CEMU</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div class="topbar">
+    <div class="fill">
+      <div class="container">
+        <%= link_to('CEMU', root_path, :class => "brand") %>
+        <ul class="nav">
+          <li class="<%= controller.controller_name == "pages" and controller.action_name == "home" ? "active" : "" %>"><%= link_to('Home', root_path) %></li>
+          <li class="<%= controller.controller_name == "pages" and controller.action_name == "about" ? "active" : "" %>"><%= link_to('About', about_path) %></li>
+          <li class="<%= controller.controller_name == "pages" and controller.action_name == "download" ? "active" : "" %>"><%= link_to('Download', download_path) %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
 <%= yield %>
-
+    <footer>
+      <p>&copy; Somebody 2011</p>
+    </footer>
+  </div>
 </body>
 </html>
