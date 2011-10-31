@@ -5,11 +5,17 @@ CEMU is a cloud version of Extractor of Mutations (EMU) built with Ruby on Rails
 == Requirements
 
 * Ruby: http://rubyinstaller.org/ on Windows, http://beginrescueend.com/rvm/install/ on Mac and Linux
+* Bundler: gem install bundler
 * Ruby on Rails: gem install rails
 * MySQL: http://dev.mysql.com/downloads/
 
 == Setup
 
+1. Download the program: https://github.com/hgvd/cemu/zipball/master
+1. Unzip the file
+1. bundle install
+1. make a copy of config/database.yml.mysql to config/database.yml
+1. rake db:setup
 
 == Contribute
 
