@@ -16,7 +16,7 @@ CEMU is a cloud version of Extractor of Mutations (EMU) built with Ruby on Rails
 1. bundle install
 1. make a copy of config/database.yml.mysql to config/database.yml
 1. update config/database.yml according to your database setup
-   * For MySQL, try +$ mysql_config --socket+ to find out socket
+   * For MySQL, try +mysql_config+ in the command line to find out socket information
 1. rake db:setup
 1. rails s
 
