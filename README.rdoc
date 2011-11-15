@@ -6,6 +6,7 @@ CEMU is a cloud version of Extractor of Mutations (EMU) built with Ruby on Rails
 
 * Ruby: http://rubyinstaller.org on Windows, http://beginrescueend.com/rvm/install on Mac and Linux
   * If you installed RVM, you also need to run the following command: rvm install 1.9.2 --default
+  * Try http://tryruby.org if you are new to Ruby
 * Bundler: gem install bundler
 * Ruby on Rails: gem install rails
 * MySQL Community Server: http://dev.mysql.com/downloads/mysql
