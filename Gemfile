@@ -18,6 +18,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'loadat'
+
 group :development do
   gem 'therubyracer'
 end
