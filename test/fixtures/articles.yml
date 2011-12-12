@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  source: MyString
+  title: MyText
+  abstract: MyText
+  doi: MyString
+  variations_count: 1
+
+two:
+  source: MyString
+  title: MyText
+  abstract: MyText
+  doi: MyString
+  variations_count: 1

@@ -1,0 +1,11 @@
+<h1><%= @article.title %></h1>
+<p>
+  <b>Source:</b>
+  <%= link_to @article.source, "http://www.ncbi.nlm.nih.gov/pubmed/#{@article.id}", :target => "_blank" %>
+</p>
+
+<p>
+  <b>Abstract:</b>
+  <%= @article.abstract %>
+</p>
+

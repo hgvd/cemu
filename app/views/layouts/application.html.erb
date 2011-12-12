@@ -13,6 +13,7 @@
         <%= link_to('CEMU', root_path, :class => "brand") %>
         <ul class="nav">
           <li class="<%= controller.controller_name == "pages" and controller.action_name == "home" ? "active" : "" %>"><%= link_to('Home', root_path) %></li>
+          <li class="<%= controller.controller_name == "articles" ? "active" : "" %>"><%= link_to('Articles', articles_path) %></li>
           <li class="<%= controller.controller_name == "pages" and controller.action_name == "about" ? "active" : "" %>"><%= link_to('About', about_path) %></li>
           <li class="<%= controller.controller_name == "pages" and controller.action_name == "download" ? "active" : "" %>"><%= link_to('Download', download_path) %></li>
         </ul>
